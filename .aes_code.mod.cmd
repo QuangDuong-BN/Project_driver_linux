@@ -1,0 +1,1 @@
+cmd_/home/quang/Desktop/Project_driver_linux/aes_code.mod := printf '%s\n'   aes_code.o | awk '!x[$$0]++ { print("/home/quang/Desktop/Project_driver_linux/"$$0) }' > /home/quang/Desktop/Project_driver_linux/aes_code.mod

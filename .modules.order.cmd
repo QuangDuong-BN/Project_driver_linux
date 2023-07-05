@@ -1,0 +1,1 @@
+cmd_/home/quang/Desktop/Project_driver_linux/modules.order := {   echo /home/quang/Desktop/Project_driver_linux/aes_code.ko; :; } | awk '!x[$$0]++' - > /home/quang/Desktop/Project_driver_linux/modules.order

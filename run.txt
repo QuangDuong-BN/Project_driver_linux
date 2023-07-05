@@ -1,0 +1,19 @@
+sudo make
+sudo insmod aes_code.ko 
+sudo rmmod aes_code
+sudo dmesg
+
+
+sudo insmod bai1.ko 
+sudo ./test
+sudo rmmod bai1
+
+
+sudo dmesg
+
+ if (len > message_len - *offset)
+        len = message_len - *offset;
+
+    if (*offset >= message_len)
+        return 0;
+

@@ -1,0 +1,1 @@
+cmd_/home/quang/Desktop/lab4.1_driver/bai1.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/quang/Desktop/lab4.1_driver/bai1.ko /home/quang/Desktop/lab4.1_driver/bai1.o /home/quang/Desktop/lab4.1_driver/bai1.mod.o;  true

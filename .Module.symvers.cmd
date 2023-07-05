@@ -1,0 +1,1 @@
+cmd_/home/quang/Desktop/Project_driver_linux/Module.symvers := sed 's/ko$$/o/' /home/quang/Desktop/Project_driver_linux/modules.order | scripts/mod/modpost -m -a  -o /home/quang/Desktop/Project_driver_linux/Module.symvers -e -i Module.symvers   -T -

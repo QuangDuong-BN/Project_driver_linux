@@ -1,0 +1,1 @@
+cmd_/home/quang/Desktop/Project_driver_linux/aes_code.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/quang/Desktop/Project_driver_linux/aes_code.ko /home/quang/Desktop/Project_driver_linux/aes_code.o /home/quang/Desktop/Project_driver_linux/aes_code.mod.o;  true
