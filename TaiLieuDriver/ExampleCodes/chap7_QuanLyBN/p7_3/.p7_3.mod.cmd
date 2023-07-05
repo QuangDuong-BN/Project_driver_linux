@@ -1,0 +1,1 @@
+cmd_/home/pvh/DriverProgramming/ExampleCodes/chap7_QuanLyBN/p7_3/p7_3.mod := { echo  /home/pvh/DriverProgramming/ExampleCodes/chap7_QuanLyBN/p7_3/p7_3.o; echo; } > /home/pvh/DriverProgramming/ExampleCodes/chap7_QuanLyBN/p7_3/p7_3.mod

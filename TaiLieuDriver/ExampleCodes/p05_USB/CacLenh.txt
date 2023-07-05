@@ -1,0 +1,24 @@
+Cac lenh su dung:
+- hien thi danh sach usb
+lsusb
+- 
+int usb_register(struct usb_driver *driver);
+
+void usb_deregister(struct usb_driver *);
+
+sudo service ssh start
+
+1. build: make hoac make all
+2. xem thong tin module nhan
+modinfo <ten.ko>
+3. load module
+sudo insmod <ten.ko>
+//load va thuc thi kernel module
+sudo insmod ./hello.ko
+
+4. liet ke cac module nhan de kiem tra insmod thanh cong chua
+lsmod
+5. theo doi qua trinh hoat dong cua module nhan
+dmesg
+6. go module nhan
+sudo rmmod <ten>

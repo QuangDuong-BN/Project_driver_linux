@@ -1,0 +1,1 @@
+cmd_/home/pvh/DriverProgramming/ExampleCodes/chap6_USB/p6_1_PCI/p6_1_pci.mod := { echo  /home/pvh/DriverProgramming/ExampleCodes/chap6_USB/p6_1_PCI/p6_1_pci.o; echo; } > /home/pvh/DriverProgramming/ExampleCodes/chap6_USB/p6_1_PCI/p6_1_pci.mod

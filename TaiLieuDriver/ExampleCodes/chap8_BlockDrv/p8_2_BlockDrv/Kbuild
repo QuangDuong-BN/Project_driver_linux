@@ -1,0 +1,4 @@
+EXTRA_CFLAGS = -Wall
+
+obj-m := block_driver.o
+block_driver-y := vblock_dev.o vblock_drv.o

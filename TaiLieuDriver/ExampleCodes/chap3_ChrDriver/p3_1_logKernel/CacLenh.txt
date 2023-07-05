@@ -1,0 +1,28 @@
+Ghi chu:
+Can can make, gcc:
+sudo apt install make
+
+sudo apt update
+sudo apt install build-essential
+sudo apt-get install manpages-dev
+(Kiem tra gcc: gcc --version)
+
+-------------------------------------
+1. build: make hoac make all
+2. xem thong tin module nhan
+modinfo <ten.ko>
+3. load module
+sudo insmod <ten.ko>
+//load va thuc thi kernel module
+sudo insmod ./hello.ko
+
+4. liet ke cac module nhan de kiem tra insmod thanh cong chua
+lsmod
+5. theo doi qua trinh hoat dong cua module nhan
+dmesg
+6. go module nhan
+sudo rmmod <ten>
+
+CHU Y:
+khi mo file device /dev/ten... trong chuong trinh test.c, co the ko mo duoc do ko co quyen
+=> chay test voi vai tro root: sudo ./test

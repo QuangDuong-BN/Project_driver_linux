@@ -1,0 +1,1 @@
+cmd_/home/pvh/DriverProgramming/ExampleCodes/p03/p03.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/pvh/DriverProgramming/ExampleCodes/p03/p03.ko /home/pvh/DriverProgramming/ExampleCodes/p03/p03.o /home/pvh/DriverProgramming/ExampleCodes/p03/p03.mod.o ;  true

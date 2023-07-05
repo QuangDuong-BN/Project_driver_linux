@@ -1,0 +1,2 @@
+/home/pvh/DriverProgramming/ExampleCodes/chap7_QuanLyBN/p7_2/p7_2.o
+

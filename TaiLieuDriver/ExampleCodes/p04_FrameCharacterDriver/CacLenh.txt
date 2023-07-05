@@ -1,0 +1,31 @@
+//sudo service ssh start
+
+1. build: make hoac make all
+2. xem thong tin module nhan
+modinfo <ten.ko>
+3. load module
+sudo insmod <ten.ko>
+4. liet ke cac module nhan de kiem tra insmod thanh cong chua
+lsmod
+5. theo doi qua trinh hoat dong cua module nhan
+dmesg
+6. go module nhan
+sudo rmmod <ten>
+
+==> su dung:
+Quy trinh: 1. tao driver -> 2. insert kernel module -> 3. chay dmesg de lay MajorID 
+(xem file nano /proc/devices de xem driver cua thiet bi tuong ung; vaf MajorID)
+-> 4. Tao file thiet bi (de application truy xuat)
+250 la majorID. Can su dung dmesg de xem majorID cu the
+sudo mknod /dev/<ten file thiet bi> c 250 1
+VD:
+sudo mknod /dev/filetb1 c 246 1
+-> 5. Viet chuong trinh su dung file thiet bi. Co the truyen qua tham so dong lenh
+int main(int argc, char** argv) => argv[0] = ten file thuc thi; argv[1]... la gia tri cac tham so khac
+Bien dich:
+gcc tenCT.c -o tenFileThucThi	//khong can phan mo rong
+-> 6. Xem file thiet bi da tao va truyen cho chuong trinh test trong buoc 5
+Xem file thiet bi da tao: ls /dev
+VD: filetb1
+=> goi thuc thi: ./test /dev/filetb1
+

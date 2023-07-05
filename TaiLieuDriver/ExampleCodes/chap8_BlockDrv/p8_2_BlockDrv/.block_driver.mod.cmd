@@ -1,0 +1,1 @@
+cmd_/home/pvh/DriverProgramming/ExampleCodes/chap8_BlockDrv/p8_2_BlockDrv/block_driver.mod := { echo  /home/pvh/DriverProgramming/ExampleCodes/chap8_BlockDrv/p8_2_BlockDrv/vblock_dev.o /home/pvh/DriverProgramming/ExampleCodes/chap8_BlockDrv/p8_2_BlockDrv/vblock_drv.o; echo; } > /home/pvh/DriverProgramming/ExampleCodes/chap8_BlockDrv/p8_2_BlockDrv/block_driver.mod
